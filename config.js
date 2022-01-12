@@ -31,8 +31,8 @@ module.exports = {
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     M_REPLY: process.env.M_REPLY === undefined ? 'Hey!' : process.env.M_REPLY,
     M_REPLY_VAR: process.env.M_REPLY_VAR === undefined ? 'true' : process.env.M_REPLY_VAR,
-    AFNN: process.env.TAG_REPLY === undefined ? '919074309534@s.whatsapp.net' : process.env.TAG_REPLY,
-    NBSK: process.env.ALL_NUMBER === undefined ? '916282344739' : process.env.ALL_NUMBER,
+    AFNN: process.env.TAG_REPLY === undefined ? '6285869074622@s.whatsapp.net' : process.env.TAG_REPLY,
+    NBSK: process.env.ALL_NUMBER === undefined ? '6285869074622' : process.env.ALL_NUMBER,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
@@ -82,11 +82,11 @@ module.exports = {
     DATABASE: DATABASE_URL === './whatsasena.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
     RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
     NO_ONLINE: process.env.NO_ONLINE === undefined ? true : convertToBool(process.env.NO_ONLINE),
-    SUDO: process.env.SUDO === undefined ? '919074309534,0' : process.env.SUDO,
+    SUDO: process.env.SUDO === undefined ? '6285869074622,0' : process.env.SUDO,
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
     ZEKAIS_API: "d2a8e1cf665bfddfffdcb530694fdde7",
-    SUPPORT2: "916282344739",
-    SUPPORT3: "919074309534"
+    SUPPORT2: "6285869074622",
+    SUPPORT3: "6285869074622"
 };
